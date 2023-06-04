@@ -1,8 +1,11 @@
-.idea
+/.idea
+/.vscode
+/.fleet
 .phpunit.cache
 build
 composer.lock
 coverage
+coverage.xml
 docs
 phpunit.xml
 phpstan.neon

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "farzai/laravel-mqtt-channel",
+    "description": "MQTT broadcast channel for Laravel applications",
     "keywords": [
-        ":vendor_name",
+        "farzai",
         "laravel",
-        ":package_slug"
+        "laravel-mqtt-channel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/farzai/laravel-mqtt-channel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com"
+            "name": "parsilver",
+            "email": "parkorn@farzai.com"
         }
     ],
     "require": {
@@ -34,13 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Farzai\\MqttBroadcastChannel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Farzai\\MqttBroadcastChannel\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -60,11 +59,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
-            }
+                "Farzai\\MqttBroadcastChannel\\MqttBroadcastChannelServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
