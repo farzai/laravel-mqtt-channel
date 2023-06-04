@@ -2,8 +2,8 @@
 
 namespace Farzai\MqttBroadcastChannel\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Farzai\MqttBroadcastChannel\MqttBroadcastChannelServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
